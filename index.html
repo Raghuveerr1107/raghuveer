@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Chinthal Raghuveer - B.Sc. Mathematics, Statistics and Computer Science Graduate & Aspiring Data Analyst skilled in SQL, Python, Excel, and R.">
+    <meta name="keywords" content="Chinthal Raghuveer, Data Analyst, Machine Learning, SQL, Python, Excel, RStudio, Statistics, Hyderabad">
+    <meta name="author" content="Chinthal Raghuveer">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Chinthal Raghuveer | Data Analyst Portfolio">
+    <meta property="og:description" content="Entry-level Data Analyst turning raw data into clear, actionable insights through machine learning, SQL, Python, and statistical modeling.">
+    <meta property="og:type" content="website">
+
+    <title>Chinthal Raghuveer | Data Analyst & Statistical Researcher</title>
+
+    <!-- Google Fonts & FontAwesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar-header" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="brand-logo" aria-label="Chinthal Raghuveer Initial Logo">
+                <span class="logo-monogram">CR</span>
+                <span class="logo-text">Raghuveer<span class="dot">.data</span></span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#strengths" class="nav-link">Strengths</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="./assets/Chinthal_Raghuveer_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline nav-btn" download="Chinthal_Raghuveer_Resume.pdf">
+                    <i class="fa-solid fa-file-arrow-down"></i> Resume
+                </a>
+                <button class="hamburger-toggle" id="hamburger-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="pulse-dot"></span>
+                        Seeking Entry-Level Data Analyst Roles
+                    </div>
+                    <h1 class="hero-title">Chinthal Raghuveer</h1>
+                    <h2 class="hero-subtitle">B.Sc. Mathematics, Statistics & Computer Science</h2>
+                    <p class="hero-summary">
+                        Data-driven analytical graduate (CGPA 8.47) specializing in turning complex datasets into clear, actionable insights through SQL, Python, statistical modeling, and machine learning research.
+                    </p>
+                    
+                    <div class="hero-meta">
+                        <span><i class="fa-solid fa-location-dot"></i> Hyderabad, India</span>
+                        <span><i class="fa-solid fa-graduation-cap"></i> Bhavan's Vivekananda College</span>
+                    </div>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-chart-line"></i> View Research & Projects
+                        </a>
+                        <a href="./assets/Chinthal_Raghuveer_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" download="Chinthal_Raghuveer_Resume.pdf">
+                            <i class="fa-solid fa-download"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-tertiary">
+                            <i class="fa-solid fa-paper-plane"></i> Contact Me
+                        </a>
+                    </div>
+
+                    <div class="hero-quick-links">
+                        <a href="mailto:raghuveerr2717@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="tel:+919110589258" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="data-card-wrapper">
+                        <div class="data-card glass-panel">
+                            <div class="card-header">
+                                <span class="dot-red"></span>
+                                <span class="dot-yellow"></span>
+                                <span class="dot-green"></span>
+                                <span class="card-title-code">analytical_profile.py</span>
+                            </div>
+                            <div class="card-body">
+<pre><code><span class="code-keyword">class</span> <span class="code-class">DataAnalyst</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):
+        self.name = <span class="code-str">"Chinthal Raghuveer"</span>
+        self.degree = <span class="code-str">"B.Sc. Math, Stats & CS"</span>
+        self.cgpa = <span class="code-num">8.47</span>
+        self.location = <span class="code-str">"Hyderabad, India"</span>
+        
+    <span class="code-keyword">def</span> <span class="code-func">core_toolkit</span>(self):
+        <span class="code-keyword">return</span> [<span class="code-str">"SQL"</span>, <span class="code-str">"Python"</span>, <span class="code-str">"Excel"</span>, <span class="code-str">"RStudio"</span>]
+
+    <span class="code-keyword">def</span> <span class="code-func">primary_goal</span>(self):
+        <span class="code-keyword">return</span> <span class="code-str">"Turn data into clear, actionable insights"</span></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Background</span>
+                    <h2 class="section-title">Professional Summary</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text-card glass-panel">
+                        <p class="about-lead">
+                            I am a <strong>Bachelor of Science graduate in Mathematics, Statistics, and Computer Science</strong> from Bhavan's Vivekananda College with a cumulative CGPA of <strong>8.47</strong>.
+                        </p>
+                        <p>
+                            Equipped with strong foundational expertise in mathematical analysis, statistical modeling, and computer programming, I bring hands-on skills in <strong>SQL, Python, Microsoft Excel, and RStudio</strong>. My academic journey combines rigorous theoretical statistics with applied computer science, culminating in a completed research project applying machine learning to real-world consumer behavior data.
+                        </p>
+                        <p>
+                            I am actively seeking an entry-level <strong>Data Analyst</strong> role where I can apply my analytical skills, computational expertise, and mathematical rigor to solve business problems and deliver data-backed recommendations.
+                        </p>
+                    </div>
+
+                    <div class="about-metrics-grid">
+                        <div class="metric-card glass-panel">
+                            <span class="metric-value">8.47</span>
+                            <span class="metric-label">B.Sc. CGPA</span>
+                        </div>
+                        <div class="metric-card glass-panel">
+                            <span class="metric-value">3+</span>
+                            <span class="metric-label">Core Technical Domains (Math, Stats, CS)</span>
+                        </div>
+                        <div class="metric-card glass-panel">
+                            <span class="metric-value">3</span>
+                            <span class="metric-label">Industry Certifications</span>
+                        </div>
+                        <div class="metric-card glass-panel">
+                            <span class="metric-value">3</span>
+                            <span class="metric-label">Languages (English, Hindi, Native Telugu)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="skills-section section-padding alt-bg">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Competencies</span>
+                    <h2 class="section-title">Technical Capabilities</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming -->
+                    <div class="skill-category-card glass-panel">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">C</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">Java</span>
+                        </div>
+                    </div>
+
+                    <!-- Data Analytics & Visualization -->
+                    <div class="skill-category-card glass-panel">
+                        <div class="category-header">
+                            <i class="fa-solid fa-chart-pie"></i>
+                            <h3>Data Analysis & Visualization</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag">Microsoft Excel</span>
+                            <span class="tag">RStudio</span>
+                            <span class="tag">MATLAB</span>
+                        </div>
+                    </div>
+
+                    <!-- Core Concepts -->
+                    <div class="skill-category-card glass-panel">
+                        <div class="category-header">
+                            <i class="fa-solid fa-layer-group"></i>
+                            <h3>Core Computer Science</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag">Data Structures</span>
+                            <span class="tag">DBMS</span>
+                            <span class="tag">Object-Oriented Programming (OOP)</span>
+                        </div>
+                    </div>
+
+                    <!-- Mathematics & Statistics -->
+                    <div class="skill-category-card glass-panel">
+                        <div class="category-header">
+                            <i class="fa-solid fa-calculator"></i>
+                            <h3>Mathematics & Statistics</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag">Algebra</span>
+                            <span class="tag">Probability</span>
+                            <span class="tag">Real Analysis</span>
+                            <span class="tag">Statistical Modeling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Research & Applied Work</span>
+                    <h2 class="section-title">Featured Project</h2>
+                </div>
+
+                <div class="project-featured-card glass-panel">
+                    <div class="project-badge">Statistical Research Project</div>
+                    <h3 class="project-title">Predicting Awareness of Misleading Food Advertisements Among College Students</h3>
+                    <p class="project-description">
+                        Conducted an end-to-end statistical research project aimed at understanding and predicting college students' awareness regarding misleading nutritional claims and marketing in food advertisements.
+                    </p>
+
+                    <div class="project-highlights">
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-brain"></i>
+                            <div>
+                                <h4>Machine Learning Integration</h4>
+                                <p>Applied machine learning predictive models to evaluate consumer demographic data and awareness levels.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-square-poll-vertical"></i>
+                            <div>
+                                <h4>Statistical Analysis</h4>
+                                <p>Utilized statistical analysis and inference to rigorously interpret results and formulate empirical conclusions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-tech-stack">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">Statistical Modeling</span>
+                        <span class="tech-pill">Machine Learning</span>
+                        <span class="tech-pill">Data Interpretation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section section-padding alt-bg">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Academic Timeline</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+
+                <div class="timeline">
+                    <!-- B.Sc. -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-panel">
+                            <div class="timeline-header">
+                                <span class="timeline-date">2023 – 2026</span>
+                                <span class="timeline-score">CGPA: 8.47</span>
+                            </div>
+                            <h3 class="degree">Bachelor of Science (B.Sc.)</h3>
+                            <h4 class="specialization">Mathematics, Statistics and Computer Science</h4>
+                            <p class="institution"><i class="fa-solid fa-building-columns"></i> Bhavan's Vivekananda College</p>
+                        </div>
+                    </div>
+
+                    <!-- Intermediate -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-panel">
+                            <div class="timeline-header">
+                                <span class="timeline-date">2021 – 2023</span>
+                                <span class="timeline-score">GPA: 9.26</span>
+                            </div>
+                            <h3 class="degree">Intermediate (MPC)</h3>
+                            <h4 class="specialization">Mathematics, Physics, Chemistry</h4>
+                            <p class="institution"><i class="fa-solid fa-school"></i> Toppers Junior College</p>
+                        </div>
+                    </div>
+
+                    <!-- SSC -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-panel">
+                            <div class="timeline-header">
+                                <span class="timeline-date">2021</span>
+                                <span class="timeline-score">GPA: 10.0</span>
+                            </div>
+                            <h3 class="degree">Secondary School Certificate (SSC)</h3>
+                            <p class="institution"><i class="fa-solid fa-school-flag"></i> Holy Mother High School</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Verification</span>
+                    <h2 class="section-title">Certifications</h2>
+                </div>
+
+                <div class="certifications-grid">
+                    <div class="cert-card glass-panel">
+                        <div class="cert-icon"><i class="fa-solid fa-database"></i></div>
+                        <div class="cert-info">
+                            <h3>SQL, Python, Excel</h3>
+                            <p class="cert-issuer">Qspiders</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-panel">
+                        <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+                        <div class="cert-info">
+                            <h3>Python for Data Science</h3>
+                            <p class="cert-issuer">IBM</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-panel">
+                        <div class="cert-icon"><i class="fa-solid fa-microchip"></i></div>
+                        <div class="cert-info">
+                            <h3>MATLAB Onramp</h3>
+                            <p class="cert-issuer">MathWorks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Strengths & Languages Section -->
+        <section id="strengths" class="strengths-section section-padding alt-bg">
+            <div class="container">
+                <div class="grid-two-col">
+                    <!-- Key Strengths -->
+                    <div class="strengths-wrapper">
+                        <div class="section-header align-left">
+                            <span class="section-tag">Soft Skills</span>
+                            <h2 class="section-title">Key Strengths</h2>
+                        </div>
+                        <div class="strengths-grid">
+                            <div class="strength-card glass-panel">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <span>Time Management</span>
+                            </div>
+                            <div class="strength-card glass-panel">
+                                <i class="fa-solid fa-comments"></i>
+                                <span>Effective Communication</span>
+                            </div>
+                            <div class="strength-card glass-panel">
+                                <i class="fa-solid fa-sliders"></i>
+                                <span>Adaptability</span>
+                            </div>
+                            <div class="strength-card glass-panel">
+                                <i class="fa-solid fa-people-group"></i>
+                                <span>Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Languages -->
+                    <div class="languages-wrapper">
+                        <div class="section-header align-left">
+                            <span class="section-tag">Communication</span>
+                            <h2 class="section-title">Languages</h2>
+                        </div>
+                        <div class="languages-list glass-panel">
+                            <div class="language-item">
+                                <span class="lang-name">English</span>
+                                <span class="lang-type">Professional Proficiency</span>
+                            </div>
+                            <div class="language-item">
+                                <span class="lang-name">Hindi</span>
+                                <span class="lang-type">Conversational Proficiency</span>
+                            </div>
+                            <div class="language-item">
+                                <span class="lang-name">Telugu</span>
+                                <span class="lang-type">Native</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Contact Information</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <a href="mailto:raghuveerr2717@gmail.com" class="contact-card glass-panel">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email Address</span>
+                            <span class="contact-value">raghuveerr2717@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="tel:+919110589258" class="contact-card glass-panel">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="contact-details">
+                            <span class="contact-label">Phone Number</span>
+                            <span class="contact-value">+91 9110589258</span>
+                        </div>
+                    </a>
+
+                    <div class="contact-card glass-panel">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="contact-details">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">Hyderabad, India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-monogram">CR</span>
+                <span>Chinthal Raghuveer</span>
+            </div>
+            <p class="footer-text">Data Analyst & Statistical Researcher</p>
+            <p class="footer-copyright">&copy; <span id="current-year"></span> Chinthal Raghuveer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript File -->
+    <script src="index.js"></script>
+</body>
+</html>
